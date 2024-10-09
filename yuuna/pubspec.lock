@@ -1043,10 +1043,10 @@ packages:
     dependency: transitive
     description:
       name: material_color_utilities
-      sha256: "9528f2f296073ff54cb9fee677df673ace1218163c3bc7628093e7eed5203d41"
+      sha256: f7142bb1154231d7ea5f96bc7bde4bda2a0945d2806bb11670e30b850d56bdec
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.0"
+    version: "0.11.1"
   material_floating_search_bar:
     dependency: "direct main"
     description:
@@ -1068,10 +1068,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "3c74dbf8763d36539f114c799d8a2d87343b5067e9d796ca22b5eb8437090ee3"
+      sha256: bdb68674043280c3428e9ec998512fb681678676b3c54e773629ffe74419f8c7
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.1"
+    version: "1.15.0"
   mime:
     dependency: transitive
     description:
@@ -1354,14 +1354,14 @@ packages:
       url: "https://github.com/lrorpilla/receive_intent"
     source: git
     version: "0.2.3"
-  record_mp3:
-    dependency: "direct main"
+  record_mp3_plus:
+    dependency: "direct overridden"
     description:
-      name: record_mp3
-      sha256: dd3d221d223f4a38816835e7a887a401a808c583d11d793ef04a60e4f13e781e
+      name: record_mp3_plus
+      sha256: bf0b3f3ed96227a289ddf71605eb5370e5d43b8a2c17429ec55e60ace03d76e9
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "1.2.0"
   remove_emoji:
     dependency: "direct main"
     description:
@@ -1869,14 +1869,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
-  web:
-    dependency: transitive
-    description:
-      name: web
-      sha256: dc8ccd225a2005c1be616fe02951e2e342092edf968cf0844220383757ef8f10
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.4-beta"
   web_socket_channel:
     dependency: "direct main"
     description:
@@ -1929,10 +1921,10 @@ packages:
     dependency: "direct main"
     description:
       name: youtube_explode_dart
-      sha256: c5c5a7ddec7d42d341cb8e49d628c4b81618f927bbf81dbfa9c550bee39ef45d
+      sha256: "28dca07fefb4b6518beab95f0c1ef81031f921ed0fe87ebcd9c51378546edfee"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "2.2.3"
 sdks:
-  dart: ">=3.1.0-185.0.dev <4.0.0"
+  dart: ">=3.3.0-0 <4.0.0"
   flutter: ">=3.10.6"
