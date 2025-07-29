@@ -8,7 +8,7 @@ class OpenRtkDeepLinkAction extends ConfigurableOpenDeepLinkAction {
       : super(
           actionUniqueKey: key,
           actionLabel: 'Search on RTK',
-          actionIcon: Icons.translate,
+          actionIcon: Icons.troubleshoot,
           deepLinkBaseUrl: 'rtk://search?q=',
           description: 'Searches the term on RTK app.',
         );

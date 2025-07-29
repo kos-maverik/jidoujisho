@@ -8,7 +8,7 @@ class OpenAkebiDeepLinkAction extends ConfigurableOpenDeepLinkAction {
       : super(
           actionUniqueKey: key,
           actionLabel: 'Search on Akebi',
-          actionIcon: Icons.search,
+          actionIcon: Icons.translate,
           deepLinkBaseUrl: 'akebi://word?kanji=',
           description: 'Searches the term on Akebi app.',
         );
