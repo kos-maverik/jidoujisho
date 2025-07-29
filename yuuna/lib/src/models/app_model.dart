@@ -958,6 +958,8 @@ class AppModel with ChangeNotifier {
       CopyToClipboardAction(),
       ShareAction(),
       PlayAudioAction(),
+      OpenRtkDeepLinkAction(),
+      OpenAkebiDeepLinkAction(),
     ];
 
     quickActions = Map<String, QuickAction>.unmodifiable(

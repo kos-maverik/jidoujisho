@@ -206,20 +206,18 @@ class AnkiMapping {
   /// A default map of enhancements to use for new mappings.
   static const Map<String, Map<int, String>> defaultActionsByLanguage = {
     'ja-JP': {
-      0: CardCreatorAction.key,
-      1: InstantExportAction.key,
-      2: AddToStashAction.key,
-      3: CopyToClipboardAction.key,
-      4: ShareAction.key,
-      5: PlayAudioAction.key,
+      0: InstantExportAction.key,
+      1: CopyToClipboardAction.key,
+      2: PlayAudioAction.key,
+      3: OpenAkebiDeepLinkAction.key,
+      4: OpenRtkDeepLinkAction.key,
     },
     'en-US': {
-      0: CardCreatorAction.key,
-      1: InstantExportAction.key,
-      2: AddToStashAction.key,
-      3: CopyToClipboardAction.key,
-      4: ShareAction.key,
-      5: PlayAudioAction.key,
+      0: InstantExportAction.key,
+      1: CopyToClipboardAction.key,
+      2: PlayAudioAction.key,
+      3: OpenAkebiDeepLinkAction.key,
+      4: OpenRtkDeepLinkAction.key,
     }
   };
 
